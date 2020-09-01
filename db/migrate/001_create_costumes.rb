@@ -1,4 +1,4 @@
-class CreateCostumes ActiveRecord::Migration
+class CreateCostumes < ActiveRecord::Migration
    def change
       create_table :costume do |t|
 
